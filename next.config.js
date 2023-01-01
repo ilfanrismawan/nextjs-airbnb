@@ -1,4 +1,9 @@
+const { linkSync } = require("fs");
+
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-}
+  reactStrictMode: false,
+  images: {
+    domains: ["links.papareact.com", "jsonkeeper.com", "www.jsonkeeper.com"],
+  },
+};
