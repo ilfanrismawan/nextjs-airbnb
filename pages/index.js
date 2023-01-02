@@ -10,7 +10,7 @@ function Home({ exploreData, cardsData }) {
   return (
     <div className="">
       <Head>
-        <title>AIRnba3</title>
+        <title>Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
